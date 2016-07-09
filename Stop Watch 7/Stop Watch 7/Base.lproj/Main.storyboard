@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stop_Watch_7" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ph-3n-Fph">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Stop Watch" id="MSt-VV-SrI"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hoo-Xy-3Gn">
+                                <rect key="frame" x="0.0" y="64" width="320" height="75"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="lg2-VV-ap2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="77"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSN-mI-E2h">
+                                <rect key="frame" x="48" y="156" width="66" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="U3J-sa-Q6f"/>
+                                    <constraint firstAttribute="height" constant="66" id="j8A-EI-eOs"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="start.png"/>
+                                <connections>
+                                    <action selector="startStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xh3-la-YZu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEu-sS-vgO">
+                                <rect key="frame" x="179" y="156" width="66" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="279-qz-VnN"/>
+                                    <constraint firstAttribute="width" constant="66" id="inJ-QP-xP4"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="lap.png"/>
+                                <connections>
+                                    <action selector="lapReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aXx-Pj-yBu"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xab-dS-Lvv">
+                                <rect key="frame" x="0.0" y="230" width="320" height="338"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoJ-lz-K6A">
+                                <rect key="frame" x="129" y="173" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xab-dS-Lvv" firstAttribute="top" secondItem="CoJ-lz-K6A" secondAttribute="bottom" constant="36" id="33X-wo-dOG"/>
+                            <constraint firstItem="AEu-sS-vgO" firstAttribute="leading" secondItem="CoJ-lz-K6A" secondAttribute="trailing" constant="15" id="3tL-X3-T7B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Ph-3n-Fph" secondAttribute="trailing" constant="-20" id="Dcw-lH-K2W"/>
+                            <constraint firstItem="CoJ-lz-K6A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F9K-bo-f1C"/>
+                            <constraint firstItem="9Ph-3n-Fph" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="GEo-OL-nNn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xab-dS-Lvv" secondAttribute="trailing" constant="-20" id="Idy-Cv-U0f"/>
+                            <constraint firstItem="xab-dS-Lvv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="KGI-iA-CAG"/>
+                            <constraint firstItem="Hoo-Xy-3Gn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="MjB-v3-BHn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hoo-Xy-3Gn" secondAttribute="trailing" constant="-20" id="Ofw-M8-sUB"/>
+                            <constraint firstItem="CoJ-lz-K6A" firstAttribute="top" secondItem="Hoo-Xy-3Gn" secondAttribute="bottom" constant="34" id="Ubg-k5-Yxf"/>
+                            <constraint firstItem="Hoo-Xy-3Gn" firstAttribute="top" secondItem="9Ph-3n-Fph" secondAttribute="bottom" id="Xfd-6l-UKb"/>
+                            <constraint firstItem="9Ph-3n-Fph" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ZMW-X0-SLH"/>
+                            <constraint firstItem="AEu-sS-vgO" firstAttribute="centerY" secondItem="CoJ-lz-K6A" secondAttribute="centerY" id="aAF-1N-5es"/>
+                            <constraint firstItem="xab-dS-Lvv" firstAttribute="top" secondItem="AEu-sS-vgO" secondAttribute="bottom" constant="8" id="aq3-PN-EUg"/>
+                            <constraint firstItem="HSN-mI-E2h" firstAttribute="centerY" secondItem="CoJ-lz-K6A" secondAttribute="centerY" id="fz0-XL-prf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xab-dS-Lvv" secondAttribute="bottom" id="oP0-Xv-rcE"/>
+                            <constraint firstItem="CoJ-lz-K6A" firstAttribute="leading" secondItem="HSN-mI-E2h" secondAttribute="trailing" constant="15" id="y0j-PI-jo8"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="lapsResetButton" destination="AEu-sS-vgO" id="rRB-4f-oaC"/>
+                        <outlet property="lapsTableView" destination="xab-dS-Lvv" id="Bcl-n8-Yih"/>
+                        <outlet property="startStopButton" destination="HSN-mI-E2h" id="Oln-X3-lQ0"/>
+                        <outlet property="stopWatchLabel" destination="Hoo-Xy-3Gn" id="XIP-IL-I21"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lap.png" width="100" height="100"/>
+        <image name="start.png" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC042ED41C43ED6900E59DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC042ED31C43ED6900E59DF8 /* AppDelegate.swift */; };
+		EC042ED61C43ED6900E59DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC042ED51C43ED6900E59DF8 /* ViewController.swift */; };
+		EC042ED91C43ED6900E59DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC042ED71C43ED6900E59DF8 /* Main.storyboard */; };
+		EC042EDB1C43ED6900E59DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC042EDA1C43ED6900E59DF8 /* Assets.xcassets */; };
+		EC042EDE1C43ED6900E59DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC042EDC1C43ED6900E59DF8 /* LaunchScreen.storyboard */; };
+		EC042EE91C43ED6900E59DF8 /* Stop_Watch_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC042EE81C43ED6900E59DF8 /* Stop_Watch_7Tests.swift */; };
+		EC042EF41C43ED6900E59DF8 /* Stop_Watch_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC042EF31C43ED6900E59DF8 /* Stop_Watch_7UITests.swift */; };
+		EC042F051C43EDA800E59DF8 /* lap.png in Resources */ = {isa = PBXBuildFile; fileRef = EC042F011C43EDA800E59DF8 /* lap.png */; };
+		EC042F061C43EDA800E59DF8 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = EC042F021C43EDA800E59DF8 /* reset.png */; };
+		EC042F071C43EDA800E59DF8 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = EC042F031C43EDA800E59DF8 /* start.png */; };
+		EC042F081C43EDA800E59DF8 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = EC042F041C43EDA800E59DF8 /* stop.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC042EE51C43ED6900E59DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC042EC81C43ED6900E59DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC042ECF1C43ED6900E59DF8;
+			remoteInfo = "Stop Watch 7";
+		};
+		EC042EF01C43ED6900E59DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC042EC81C43ED6900E59DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC042ECF1C43ED6900E59DF8;
+			remoteInfo = "Stop Watch 7";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC042ED01C43ED6900E59DF8 /* Stop Watch 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Watch 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC042ED31C43ED6900E59DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC042ED51C43ED6900E59DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC042ED81C43ED6900E59DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC042EDA1C43ED6900E59DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC042EDD1C43ED6900E59DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC042EDF1C43ED6900E59DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC042EE41C43ED6900E59DF8 /* Stop Watch 7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stop Watch 7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC042EE81C43ED6900E59DF8 /* Stop_Watch_7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop_Watch_7Tests.swift; sourceTree = "<group>"; };
+		EC042EEA1C43ED6900E59DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC042EEF1C43ED6900E59DF8 /* Stop Watch 7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stop Watch 7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC042EF31C43ED6900E59DF8 /* Stop_Watch_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop_Watch_7UITests.swift; sourceTree = "<group>"; };
+		EC042EF51C43ED6900E59DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC042F011C43EDA800E59DF8 /* lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lap.png; sourceTree = "<group>"; };
+		EC042F021C43EDA800E59DF8 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		EC042F031C43EDA800E59DF8 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		EC042F041C43EDA800E59DF8 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC042ECD1C43ED6900E59DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC042EE11C43ED6900E59DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC042EEC1C43ED6900E59DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC042EC71C43ED6900E59DF8 = {
+			isa = PBXGroup;
+			children = (
+				EC042ED21C43ED6900E59DF8 /* Stop Watch 7 */,
+				EC042EE71C43ED6900E59DF8 /* Stop Watch 7Tests */,
+				EC042EF21C43ED6900E59DF8 /* Stop Watch 7UITests */,
+				EC042ED11C43ED6900E59DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC042ED11C43ED6900E59DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC042ED01C43ED6900E59DF8 /* Stop Watch 7.app */,
+				EC042EE41C43ED6900E59DF8 /* Stop Watch 7Tests.xctest */,
+				EC042EEF1C43ED6900E59DF8 /* Stop Watch 7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC042ED21C43ED6900E59DF8 /* Stop Watch 7 */ = {
+			isa = PBXGroup;
+			children = (
+				EC042ED31C43ED6900E59DF8 /* AppDelegate.swift */,
+				EC042ED51C43ED6900E59DF8 /* ViewController.swift */,
+				EC042ED71C43ED6900E59DF8 /* Main.storyboard */,
+				EC042EDC1C43ED6900E59DF8 /* LaunchScreen.storyboard */,
+				EC042F011C43EDA800E59DF8 /* lap.png */,
+				EC042F021C43EDA800E59DF8 /* reset.png */,
+				EC042F031C43EDA800E59DF8 /* start.png */,
+				EC042F041C43EDA800E59DF8 /* stop.png */,
+				EC042EDA1C43ED6900E59DF8 /* Assets.xcassets */,
+				EC042EDF1C43ED6900E59DF8 /* Info.plist */,
+			);
+			path = "Stop Watch 7";
+			sourceTree = "<group>";
+		};
+		EC042EE71C43ED6900E59DF8 /* Stop Watch 7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC042EE81C43ED6900E59DF8 /* Stop_Watch_7Tests.swift */,
+				EC042EEA1C43ED6900E59DF8 /* Info.plist */,
+			);
+			path = "Stop Watch 7Tests";
+			sourceTree = "<group>";
+		};
+		EC042EF21C43ED6900E59DF8 /* Stop Watch 7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC042EF31C43ED6900E59DF8 /* Stop_Watch_7UITests.swift */,
+				EC042EF51C43ED6900E59DF8 /* Info.plist */,
+			);
+			path = "Stop Watch 7UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC042ECF1C43ED6900E59DF8 /* Stop Watch 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC042EF81C43ED6900E59DF8 /* Build configuration list for PBXNativeTarget "Stop Watch 7" */;
+			buildPhases = (
+				EC042ECC1C43ED6900E59DF8 /* Sources */,
+				EC042ECD1C43ED6900E59DF8 /* Frameworks */,
+				EC042ECE1C43ED6900E59DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stop Watch 7";
+			productName = "Stop Watch 7";
+			productReference = EC042ED01C43ED6900E59DF8 /* Stop Watch 7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC042EE31C43ED6900E59DF8 /* Stop Watch 7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC042EFB1C43ED6900E59DF8 /* Build configuration list for PBXNativeTarget "Stop Watch 7Tests" */;
+			buildPhases = (
+				EC042EE01C43ED6900E59DF8 /* Sources */,
+				EC042EE11C43ED6900E59DF8 /* Frameworks */,
+				EC042EE21C43ED6900E59DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC042EE61C43ED6900E59DF8 /* PBXTargetDependency */,
+			);
+			name = "Stop Watch 7Tests";
+			productName = "Stop Watch 7Tests";
+			productReference = EC042EE41C43ED6900E59DF8 /* Stop Watch 7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC042EEE1C43ED6900E59DF8 /* Stop Watch 7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC042EFE1C43ED6900E59DF8 /* Build configuration list for PBXNativeTarget "Stop Watch 7UITests" */;
+			buildPhases = (
+				EC042EEB1C43ED6900E59DF8 /* Sources */,
+				EC042EEC1C43ED6900E59DF8 /* Frameworks */,
+				EC042EED1C43ED6900E59DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC042EF11C43ED6900E59DF8 /* PBXTargetDependency */,
+			);
+			name = "Stop Watch 7UITests";
+			productName = "Stop Watch 7UITests";
+			productReference = EC042EEF1C43ED6900E59DF8 /* Stop Watch 7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC042EC81C43ED6900E59DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yogesh Verma";
+				TargetAttributes = {
+					EC042ECF1C43ED6900E59DF8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SNQ25S6J69;
+					};
+					EC042EE31C43ED6900E59DF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC042ECF1C43ED6900E59DF8;
+					};
+					EC042EEE1C43ED6900E59DF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC042ECF1C43ED6900E59DF8;
+					};
+				};
+			};
+			buildConfigurationList = EC042ECB1C43ED6900E59DF8 /* Build configuration list for PBXProject "Stop Watch 7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC042EC71C43ED6900E59DF8;
+			productRefGroup = EC042ED11C43ED6900E59DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC042ECF1C43ED6900E59DF8 /* Stop Watch 7 */,
+				EC042EE31C43ED6900E59DF8 /* Stop Watch 7Tests */,
+				EC042EEE1C43ED6900E59DF8 /* Stop Watch 7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC042ECE1C43ED6900E59DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC042EDE1C43ED6900E59DF8 /* LaunchScreen.storyboard in Resources */,
+				EC042F061C43EDA800E59DF8 /* reset.png in Resources */,
+				EC042EDB1C43ED6900E59DF8 /* Assets.xcassets in Resources */,
+				EC042F081C43EDA800E59DF8 /* stop.png in Resources */,
+				EC042ED91C43ED6900E59DF8 /* Main.storyboard in Resources */,
+				EC042F071C43EDA800E59DF8 /* start.png in Resources */,
+				EC042F051C43EDA800E59DF8 /* lap.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC042EE21C43ED6900E59DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC042EED1C43ED6900E59DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC042ECC1C43ED6900E59DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC042ED61C43ED6900E59DF8 /* ViewController.swift in Sources */,
+				EC042ED41C43ED6900E59DF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC042EE01C43ED6900E59DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC042EE91C43ED6900E59DF8 /* Stop_Watch_7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC042EEB1C43ED6900E59DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC042EF41C43ED6900E59DF8 /* Stop_Watch_7UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC042EE61C43ED6900E59DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC042ECF1C43ED6900E59DF8 /* Stop Watch 7 */;
+			targetProxy = EC042EE51C43ED6900E59DF8 /* PBXContainerItemProxy */;
+		};
+		EC042EF11C43ED6900E59DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC042ECF1C43ED6900E59DF8 /* Stop Watch 7 */;
+			targetProxy = EC042EF01C43ED6900E59DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC042ED71C43ED6900E59DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC042ED81C43ED6900E59DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC042EDC1C43ED6900E59DF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC042EDD1C43ED6900E59DF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC042EF61C43ED6900E59DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC042EF71C43ED6900E59DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC042EF91C43ED6900E59DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Stop Watch 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vermainfotech.Stop-Watch-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EC042EFA1C43ED6900E59DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Stop Watch 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vermainfotech.Stop-Watch-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EC042EFC1C43ED6900E59DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stop Watch 7Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vermainfotech.Stop-Watch-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stop Watch 7.app/Stop Watch 7";
+			};
+			name = Debug;
+		};
+		EC042EFD1C43ED6900E59DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stop Watch 7Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vermainfotech.Stop-Watch-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stop Watch 7.app/Stop Watch 7";
+			};
+			name = Release;
+		};
+		EC042EFF1C43ED6900E59DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stop Watch 7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vermainfotech.Stop-Watch-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stop Watch 7";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC042F001C43ED6900E59DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stop Watch 7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vermainfotech.Stop-Watch-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stop Watch 7";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC042ECB1C43ED6900E59DF8 /* Build configuration list for PBXProject "Stop Watch 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC042EF61C43ED6900E59DF8 /* Debug */,
+				EC042EF71C43ED6900E59DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC042EF81C43ED6900E59DF8 /* Build configuration list for PBXNativeTarget "Stop Watch 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC042EF91C43ED6900E59DF8 /* Debug */,
+				EC042EFA1C43ED6900E59DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC042EFB1C43ED6900E59DF8 /* Build configuration list for PBXNativeTarget "Stop Watch 7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC042EFC1C43ED6900E59DF8 /* Debug */,
+				EC042EFD1C43ED6900E59DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC042EFE1C43ED6900E59DF8 /* Build configuration list for PBXNativeTarget "Stop Watch 7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC042EFF1C43ED6900E59DF8 /* Debug */,
+				EC042F001C43ED6900E59DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC042EC81C43ED6900E59DF8 /* Project object */;
+}
